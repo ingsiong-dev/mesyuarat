@@ -60,8 +60,8 @@
          onerror="this.style.display='none'">
     <div class="brand">KEHADIRAN MESYUARAT<small>SMK MERADONG</small></div>
     <div class="meter"><i></i></div>
-    <div class="status" id="bootStatus" role="status" aria-live="polite">Menyediakan sistem&hellip;</div>
-    <button class="retry" id="bootRetry" onclick="location.reload()">Cuba lagi</button>
+    <div class="status" id="bootStatus" role="status" aria-live="polite">Preparing&hellip;</div>
+    <button class="retry" id="bootRetry" onclick="location.reload()">Try again</button>
     <div class="foot">
       <div class="by">Developed by Koh Ing Siong</div>
     </div>
@@ -93,7 +93,7 @@
   setTimeout(function () {
     var s = document.getElementById('bootStatus');
     if (s && !boot.classList.contains('done')) {
-      s.textContent = 'Sambungan perlahan \u2014 sila tunggu sebentar\u2026';
+      s.textContent = 'Slow connection \u2014 please wait\u2026';
     }
   }, 6000);
   setTimeout(function () {
