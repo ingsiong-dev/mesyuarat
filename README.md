@@ -9,17 +9,16 @@ window; inside a frame it is not drawn.
 
 Live link : https://ingsiong-dev.github.io/mesyuarat/
 Live app  : https://script.google.com/macros/s/AKfycbxMrSa4fScEFGyjSXQqUIQZX-FFDhotbjg-8LmLNiGtC_tH2wPAfdb4ZzYU7GJ97lTU0A/exec
-Source    : Apps Script project `1TEf0Ls11UZhU0rvJ6fK43vaBAQu0ahHWvmWqc-uZbYVC_HRWqew5UfSm` (version 12)
+Source    : Apps Script project `1TEf0Ls11UZhU0rvJ6fK43vaBAQu0ahHWvmWqc-uZbYVC_HRWqew5UfSm` (version 13)
 
 ## What the splash shows
 
 The page is still nothing but the iframe - the wrapper exists to suppress the
 Google bar, so it must not steal any of the app's space. What changed is the
 loading state: a branded card (crest, system name, indeterminate meter,
-"Empowering Through Technology / Developed by Koh Ing Siong") on a soft green
-gradient, instead of a white page with a blue spinner. If the app is slow the
-status line says so after 6 s and a **Cuba lagi** button appears after 12 s; the
-overlay is always cleared after 20 s.
+"Developed by Koh Ing Siong") on a soft green gradient, instead of a white page
+with a blue spinner. If the app is slow the status line says so after 6 s and a
+**Cuba lagi** button appears after 12 s; the overlay is always cleared after 20 s.
 
 ## Updating
 
